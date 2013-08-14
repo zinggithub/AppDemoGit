@@ -47,6 +47,7 @@ static NSArray * speakerKeywords;
     UIImageView * roundbgImg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 90, 182, 279)];
     roundbgImg.image = [UIImage imageNamed:@"image_bg_round.png"];
     [self.view addSubview:roundbgImg];
+//    roundbgImg.transform = CGAffineTransformMakeTranslation(10, 10);
     
     _iflyMSC = [iFlyMSC shareInstance];
     _iflyMSC.delegate = self;
